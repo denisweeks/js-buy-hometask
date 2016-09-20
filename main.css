@@ -3,14 +3,13 @@ body {
     background: #DADADA;
 }
 
-.container{
+.container {
     width: 100%;
     max-width: 1300px;
     min-width: 500px;
     margin-left: auto;
     margin-right: auto;
     display: block;
-
 }
 
 .bl-background {
@@ -21,53 +20,52 @@ body {
     max-width: 1127px;
 }
 
-.left{
- 	width: 65%;
-	background: white;
- 	background-color: #fff;
-	display: table;
-	border-radius: 5px;
+.left {
+    width: 65%;
+    background: #fff;
+    background-color: #fff;
+    display: table;
+    border-radius: 5px;
 }
 
 .add {
- 	width: 100%;
- 	padding: 10px 10px 16px 10px;	
- 	border-bottom: 1.5px solid #DADADA;
+    width: 100%;
+    padding: 10px 10px 16px;
+    border-bottom: 1.5px solid #DADADA;
 }
 
 .add input {
     width: 80%;
     padding: 8px;
     box-sizing: border-box;
-    float:left;
+    float: left;
     font-size: 1em;
-    border: 1px solid rgba(34, 36, 38, .15);
+    border: 1px solid rgba(34,36,38,.15);
     border-radius: 3px;
-
 }
 
 .add button {
     width: 17%;
-	padding: 16px;
-	line-height: 2px;
-	border: 1px solid rgba(34, 36, 38, .15);
-	background-color: #2185D0;
-	color: white;
-	position: relative;
-	cursor:pointer;
-	left: -4px;
-	font-weight: 700;
-	font-size: 15px;
-    border-radius: 0px 10px 10px 0px;
+    padding: 16px;
+    line-height: 2px;
+    border: 1px solid rgba(34,36,38,.15);
+    background-color: #2185D0;
+    color: #fff;
+    position: relative;
+    cursor: pointer;
+    left: -4px;
+    font-weight: 700;
+    font-size: 15px;
+    border-radius: 0 10px 10px 0;
 }
 
 .add button:hover {
-	background-color: #1678c2;
+    background-color: #1678c2;
 }
 
 .bl-list {
-	width: 100%;
-	padding: 8px;
+    width: 100%;
+    padding: 8px;
 }
 
 .bl-bought {
@@ -78,17 +76,17 @@ body {
 }
 
 .bl-title {
-	font: bold 120% sans-serif;
-	border-bottom: 1.5px solid #DADADA;
-	padding: 10px;
+    font: bold 120% sans-serif;
+    border-bottom: 1.5px solid #DADADA;
+    padding: 10px;
 }
 
 .bl-item {
-	border-bottom: 1.5px solid #DADADA;
-	padding: 10px;
+    border-bottom: 1.5px solid #DADADA;
+    padding: 10px;
 }
 
-.bl-item-group-label{
+.bl-item-group-label {
     display: inline-block;
     background: #E8E8E8;
     border-radius: 5px;
@@ -98,45 +96,44 @@ body {
 }
 
 .bl-item-label {
-    font-family: Lato, 'Helvetica Neue', Arial, Helvetica, sans-serif;
-    margin:4px;
+    font-family: Lato,'Helvetica Neue',Arial,Helvetica,sans-serif;
+    margin: 4px;
     font-size: 10px;
     font-weight: 700;
-    text-align: center; 
+    text-align: center;
 }
 
 .bl-item-label-number {
     background: #F2711C;
     outline: none;
     border-radius: 50%;
-    color:white;
+    color: #fff;
     margin: 4px;
-    padding: 0px 5px 0px 5px;
-    font-family: Lato, 'Helvetica Neue', Arial, Helvetica, sans-serif;
-
+    padding: 0 5px;
+    font-family: Lato,'Helvetica Neue',Arial,Helvetica,sans-serif;
 }
 
 .bl-label {
     background: #E8E8E8;
-    padding: 3px 6px 3px 6px;
-	border-radius: 5px;
-	font-family: Lato, 'Helvetica Neue', Arial, Helvetica, sans-serif;
+    padding: 3px 6px;
+    border-radius: 5px;
+    font-family: Lato,'Helvetica Neue',Arial,Helvetica,sans-serif;
 }
 
 .bl-minus {
-    background: rgba(219, 40, 40, 0.47);
+    background: rgba(219,40,40,0.47);
     border: 0;
     outline: none;
     border-radius: 50%;
     width: 30px;
     height: 30px;
-    color:white;
+    color: #fff;
     font-weight: 700;
-    cursor:pointer;
+    cursor: pointer;
 }
 
-.bl-minus:hover{
-	background: #d01919;
+.bl-minus:hover {
+    background: #d01919;
 }
 
 .bl-plus {
@@ -146,69 +143,69 @@ body {
     border-radius: 50%;
     width: 30px;
     height: 30px;
-    color:white;
+    color: #fff;
     font-weight: 700;
-    cursor:pointer;
+    cursor: pointer;
 }
 
 .bl-plus:hover {
-	background: #16ab39;
+    background: #16ab39;
 }
 
 .bl-buy {
-	padding: 15px 15px 15px;
-	line-height: 2px;
-	border: 1px solid rgba(34, 36, 38, .15);
-	background: #F8F8F8;
-	cursor:pointer;
-	color:black;
-	font-weight: 700;
-	font-size: 15px;
+    padding: 15px;
+    line-height: 2px;
+    border: 1px solid rgba(34,36,38,.15);
+    background: #F8F8F8;
+    cursor: pointer;
+    color: #000;
+    font-weight: 700;
+    font-size: 15px;
     border-radius: 5px;
-    font-family: Lato, 'Helvetica Neue', Arial, Helvetica, sans-serif;
-    color: black;
+    font-family: Lato,'Helvetica Neue',Arial,Helvetica,sans-serif;
+    color: #000;
 }
 
-.bl-buy:hover{
-	background: #CACBCD;
+.bl-buy:hover {
+    background: #CACBCD;
 }
 
 .bl-cancel {
-	padding: 15px 10px 15px;
-	line-height: 2px;
-	border: 1px solid rgba(34, 36, 38, .15);
-	background: #DB2828;	
-	color: white;
-	position: relative;
-	cursor:pointer;
-	left: -4px;
-	font-weight: 700;
-	font-size: 15px;
+    padding: 15px 10px;
+    line-height: 2px;
+    border: 1px solid rgba(34,36,38,.15);
+    background: #DB2828;
+    color: #fff;
+    position: relative;
+    cursor: pointer;
+    left: -4px;
+    font-weight: 700;
+    font-size: 15px;
     border-radius: 5px;
-    font-family: Lato, 'Helvetica Neue', Arial, Helvetica, sans-serif;
-    color: white;
+    font-family: Lato,'Helvetica Neue',Arial,Helvetica,sans-serif;
+    color: #fff;
 }
 
-.bl-cancel:hover{
-	background: #d01919;
+.bl-cancel:hover {
+    background: #d01919;
 }
 
 .bl-row {
-	width: 100%;
+    width: 100%;
 }
 
 .bl-product {
-	width:45%;
-    float:left;
-    font-family: Lato, 'Helvetica Neue', Arial, Helvetica, sans-serif;
+    width: 45%;
+    float: left;
+    font-family: Lato,'Helvetica Neue',Arial,Helvetica,sans-serif;
 }
 
 .bl-count {
-	width:35%;
- 	float:left;
+    width: 35%;
+    float: left;
 }
 
 .bl-buttons {
-	width:20%;
- 	float:left;
+    width: 20%;
+    float: left;
 }
