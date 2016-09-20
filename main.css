@@ -58,6 +58,7 @@ body {
 	left: -4px;
 	font-weight: 700;
 	font-size: 15px;
+    border-radius: 0px 10px 10px 0px;
 }
 
 .add button:hover {
@@ -67,7 +68,6 @@ body {
 .bl-list {
 	width: 100%;
 	padding: 8px;
-
 }
 
 .bl-bought {
@@ -88,12 +88,32 @@ body {
 	padding: 10px;
 }
 
-.bl-item-labe {
-	display: inline-block;
-	background: #E8E8E8;
-    padding: 3px 6px 3px 6px;
-	border-radius: 5px;
-	font-family: Lato, 'Helvetica Neue', Arial, Helvetica, sans-serif;
+.bl-item-group-label{
+    display: inline-block;
+    background: #E8E8E8;
+    border-radius: 5px;
+    text-align: center;
+    line-height: 2;
+    margin: 1px;
+}
+
+.bl-item-label {
+    font-family: Lato, 'Helvetica Neue', Arial, Helvetica, sans-serif;
+    margin:4px;
+    font-size: 10px;
+    font-weight: 700;
+    text-align: center; 
+}
+
+.bl-item-label-number {
+    background: #F2711C;
+    outline: none;
+    border-radius: 50%;
+    color:white;
+    margin: 4px;
+    padding: 0px 5px 0px 5px;
+    font-family: Lato, 'Helvetica Neue', Arial, Helvetica, sans-serif;
+
 }
 
 .bl-label {
